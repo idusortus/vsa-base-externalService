@@ -84,8 +84,6 @@ dotnet ef database update --project src/Infrastructure/ --startup-project src/Ap
 
 ### Common/General Response Codes
 
-These codes can be returned by almost any endpoint.
-
 | Response Code | Code Short Description | When It's Used |
 | :--- | :--- | :--- |
 | **401 Unauthorized** | The client has not authenticated. | The request requires authentication, but no valid token (e.g., JWT Bearer token) was provided. The client should log in first. |
